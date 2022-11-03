@@ -6,10 +6,6 @@ import React from 'react';
 import {useState} from 'react';
 
 export const App = () => {
-  // const [good, setGood] = useState(0);
-  // const [neutral, setNeutral] = useState(0);
-  // const [bad, setBad] = useState(0);
-
   const [feedback, setFeedback] = useState({
     good: 0,
     neutral: 0,
